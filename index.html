@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters-count</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@4.1.0/index.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-fuchsia-100">
+    
+    <div class="bg-blue-500  p-8 absolute top-28 left-64 max-md:left-14 max-md:top-24 max-md:w-4/5 shadow-xl w-1/2">
+        <label for="bio">Enter Characters (max 200 chars):</label><br>
+        <textarea class="w-full h-40 mt-4 p-4 border-4 border-red-300 rounded-xl bg-blue focus:outline-none" id="input" maxlength="201"></textarea>
+
+        <div id="charMessage">200 characters
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
